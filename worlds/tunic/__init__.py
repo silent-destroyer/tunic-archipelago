@@ -171,7 +171,7 @@ class TunicWorld(World):
                 passthrough = self.multiworld.re_gen_passthrough["TUNIC"]
                 self.ability_unlocks["Pages 24-25 (Prayer)"] = passthrough["Hexagon Quest Prayer"]
                 self.ability_unlocks["Pages 42-43 (Holy Cross)"] = passthrough["Hexagon Quest Holy Cross"]
-                self.ability_unlocks["Pages 52-53 (Ice Rod)"] = passthrough["Hexagon Quest Ice Rod"]
+                self.ability_unlocks["Pages 52-53 (Icebolt)"] = passthrough["Hexagon Quest Icebolt"]
             
         if self.options.entrance_rando:
             portal_pairs, portal_hints = create_er_regions(self)
